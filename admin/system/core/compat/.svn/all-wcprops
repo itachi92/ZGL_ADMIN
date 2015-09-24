@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/zgl/!svn/ver/460/home/admin/system/core/compat
+END
+standard.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/zgl/!svn/ver/460/home/admin/system/core/compat/standard.php
+END
+password.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/zgl/!svn/ver/460/home/admin/system/core/compat/password.php
+END
+hash.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/zgl/!svn/ver/460/home/admin/system/core/compat/hash.php
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/zgl/!svn/ver/460/home/admin/system/core/compat/index.html
+END
+mbstring.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/zgl/!svn/ver/460/home/admin/system/core/compat/mbstring.php
+END

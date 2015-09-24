@@ -1,0 +1,122 @@
+﻿<?php
+
+/**
+  +------------------------------------------------------------------------------
+ * index.php   首页 登陆 退出
+  +------------------------------------------------------------------------------
+ * @copyright   
+ * @lastmodify
+ * @version  
+  +------------------------------------------------------------------------------
+ */
+class Index extends MY_Controller
+{
+
+    public $user = array();
+    public $_data = array();
+
+    function __construct()
+    {
+        parent::__construct();
+        $this->load->model('Index_model');
+    }
+
+    /**
+     * 后台首页
+     */
+    public function index()
+    {
+        $data['company'] = 'ZGL';
+        $this->load->view('index', $data);
+    }
+
+    /**
+     * 登录
+     */
+    public function login()
+    {
+        $pwd = trim($_POST['pwd']);
+        $email = trim($_POST['uname']);
+        if (empty($email) || empty($pwd))
+        {
+            header('Location: /index/index');
+            exit;
+        }
+
+        // if (strtolower($_SESSION['code']) != strtolower($code)) {
+        //     fill_json(400, '', '验证码错误');
+        // }
+
+        $user = $this->Index_model->get_user_by_name($email, $pwd);
+        if (!empty($user))
+        {
+            $_SESSION['user_id'] = $user['user_id'];
+            $_SESSION ['realname'] = $user['realname'];
+            $_SESSION ['email'] = $user['email'];
+            $_SESSION ['login_time'] = time();
+
+            header('Location: /index/main');
+        } else
+        {
+            header('Location: /index/index');
+        }
+    }
+
+    /**
+     * 后台主页
+     */
+    public function main()
+    {
+        $data = array();
+        $this->load->view('main', $data);
+    }
+
+    /**
+     * 左侧菜单
+     */
+    public function menu_left()
+    {
+        echo '<h2>左侧菜单  </h2>';
+    }
+
+    public function right_content()
+    {
+         echo '<h2>右侧正文内容 </h2>';
+    }
+
+    /**
+     *  验证码
+     */
+    public function vcode()
+    {
+        echo 'check vcode';
+    }
+
+    /**
+     * 退出
+     */
+    function logout()
+    {
+        $_SESSION = array();
+        if (isset($_COOKIE[session_name()]))
+        {
+            setcookie(session_name(), '', time() - 42000, '/');
+        }
+        session_destroy();
+
+        header("location:/index/index");
+    }
+
+
+    public function test()
+    {
+        echo "test";
+    }
+}
+
+/* End of file index.php */
+/* Location: ./application/controllers */
+
+
+
+

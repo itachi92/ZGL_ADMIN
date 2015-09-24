@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/zgl/!svn/ver/469/home/admin/application/config
+END
+migration.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/zgl/!svn/ver/460/home/admin/application/config/migration.php
+END
+doctypes.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/zgl/!svn/ver/460/home/admin/application/config/doctypes.php
+END
+database.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/zgl/!svn/ver/464/home/admin/application/config/database.php
+END
+config.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/zgl/!svn/ver/469/home/admin/application/config/config.php
+END
+memcached.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/zgl/!svn/ver/460/home/admin/application/config/memcached.php
+END
+autoload.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/zgl/!svn/ver/460/home/admin/application/config/autoload.php
+END
+foreign_chars.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/zgl/!svn/ver/460/home/admin/application/config/foreign_chars.php
+END
+mimes.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/zgl/!svn/ver/460/home/admin/application/config/mimes.php
+END
+constants.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/zgl/!svn/ver/460/home/admin/application/config/constants.php
+END
+user_agents.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/zgl/!svn/ver/460/home/admin/application/config/user_agents.php
+END
+routes.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/zgl/!svn/ver/460/home/admin/application/config/routes.php
+END
+profiler.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/zgl/!svn/ver/460/home/admin/application/config/profiler.php
+END
+hooks.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/zgl/!svn/ver/460/home/admin/application/config/hooks.php
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/zgl/!svn/ver/460/home/admin/application/config/index.html
+END
+smileys.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/zgl/!svn/ver/460/home/admin/application/config/smileys.php
+END
+secret.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/zgl/!svn/ver/460/home/admin/application/config/secret.php
+END

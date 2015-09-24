@@ -1,0 +1,25 @@
+html{
+    margin:0px;
+    padding:0px
+}
+body{
+    margin:0px;
+    padding:0px;
+    font-size:12px; 
+    background:url(./../images/bg_login.png); 
+    background-attachment:fixed;
+    background-position:right bottom; 
+    background-repeat:repeat-x; 
+    background-color:#A2D5F0;
+    padding-top:100px;
+}
+table{margin:0px; padding:0px}	
+#content{
+    color:white; 
+    background:url(./../images/login_main.png) no-repeat;
+    height:496px;
+    width:800px;
+    margin:0px auto;
+}
+
+#u_name,#u_pwd{width:160px;}
